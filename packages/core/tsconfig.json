@@ -1,21 +1,11 @@
 {
-    "extends": "../../tsconfig.json",
-    "compilerOptions": {
-        "outDir": "dist",
-        "rootDir": "src",
-        "composite": true,
-        "paths": {
-            "@voidrot/confluence-client": [
-                "../confluence-client/src/index.ts"
-            ]
-        }
-    },
-    "include": [
-        "src/**/*"
-    ],
-    "references": [
-        {
-            "path": "../confluence-client"
-        }
-    ]
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "composite": true
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
