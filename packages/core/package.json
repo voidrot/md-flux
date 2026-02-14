@@ -21,6 +21,6 @@
     "@types/markdown-it": "^14.1.2",
     "gray-matter": "^4.0.3",
     "typescript": "^5.3.3",
-    "vitest": "^1.0.0"
+    "vitest": "^4.0.18"
   }
 }
