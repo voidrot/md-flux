@@ -72,13 +72,13 @@ describe('CLI', () => {
   it('handles config loading failures', async () => {
     vi.mocked(configModule.loadConfig).mockImplementation(() => { throw new Error('Config error') })
 
-    await expect(run(['node', 'md-flux', 'publish'])).rejects.toThrow('process.exit called')
+    await expect(run(['node', 'md-flux', 'publish'])).rejects.toThrow('Process exited with code')
 
     expect(consoleErrorSpy).toHaveBeenCalledWith('Config error')
   })
 
   it('shows help', async () => {
-    // commander throws when help is displayed if exitOverride is used, which is what we want to verify 
+    // commander throws when help is displayed if exitOverride is used, which is what we want to verify
     // to ensure it doesn't just exit process silently in tests
     await expect(run(['node', 'md-flux', '--help'])).rejects.toThrow()
   })
