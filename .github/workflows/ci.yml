@@ -30,17 +30,20 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
           cache: pnpm
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Lint
+        run: pnpm lint
+
       - name: Typecheck
-        run: pnpm run typecheck
+        run: pnpm typecheck
 
       - name: Build
-        run: pnpm run build
+        run: pnpm build
 
       - name: Test
-        run: pnpm run test
+        run: pnpm test

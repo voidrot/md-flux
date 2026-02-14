@@ -41,7 +41,10 @@ describe('CLI', () => {
     vi.clearAllMocks()
     consoleLogSpy = vi.spyOn(console, 'log').mockImplementation(() => undefined)
     consoleErrorSpy = vi.spyOn(console, 'error').mockImplementation(() => undefined)
-    vi.spyOn(process, 'exit').mockImplementation((() => { throw new Error('process.exit called') }) as unknown as (code?: number) => never)
+    // Mock process.exit to prevent termination
+    vi.spyOn(process, 'exit').mockImplementation((code?: string | number | null | undefined) => {
+      throw new Error(`Process exited with code ${code}`)
+    })
 
     vi.mocked(configModule.loadConfig).mockReturnValue(mockConfig as unknown as configModule.Config)
     vi.mocked(fg).mockResolvedValue(['/test/file.md'])

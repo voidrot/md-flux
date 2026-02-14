@@ -1,6 +1,11 @@
+
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { ConfluenceClient } from './confluence.js'
-import { PageApi, SpaceApi } from '@voidrot/confluence-client'
+import {
+  PageApi,
+  SpaceApi
+} from '@voidrot/confluence-client'
+import { ParsedMarkdown } from './markdown.js'
 
 vi.mock('@voidrot/confluence-client')
 
