@@ -4,6 +4,7 @@
     "main": "dist/index.js",
     "scripts": {
         "build": "tsc -b",
+        "typecheck": "tsc --noEmit",
         "api:clean": "rm -rf src/confluence",
         "api:generate": "openapi-generator-cli generate -c openapi-generator.confluence.json -o src/confluence && node scripts/fix-api-exports.js"
     },

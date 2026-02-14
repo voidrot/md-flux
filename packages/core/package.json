@@ -5,6 +5,7 @@
     "main": "dist/index.js",
     "scripts": {
         "build": "tsc -b",
+        "typecheck": "tsc --noEmit",
         "test": "vitest",
         "test:run": "vitest run",
         "lint": "eslint .",
