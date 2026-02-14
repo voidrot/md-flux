@@ -1,0 +1,7 @@
+# md-flux-monorepo
+
+> Tool to sync markdown docs to Atlassian Confluence
+
+## API
+- [cli/src](cli/src/README.md): cli/src module
+- [core/src](core/src/README.md): core/src module

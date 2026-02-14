@@ -1,0 +1,43 @@
+{
+  "name": "md-flux-monorepo",
+  "version": "0.1.0",
+  "description": "Tool to sync markdown docs to Atlassian Confluence",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "test:run": "pnpm -r test:run",
+    "lint": "pnpm -r lint",
+    "lint:fix": "pnpm -r lint:fix",
+    "typecheck": "pnpm -r typecheck",
+    "dev": "pnpm -r dev",
+    "docs": "typedoc --footerLastModified --footerDate"
+  },
+  "keywords": [
+    "markdown",
+    "confluence",
+    "sync"
+  ],
+  "author": "Voidrot",
+  "license": "MIT",
+  "packageManager": "pnpm@10.29.3",
+  "devDependencies": {
+    "@boneskull/typedoc-plugin-mermaid": "^0.2.1",
+    "@eslint/js": "^9.39.2",
+    "@stylistic/eslint-plugin": "^5.3.1",
+    "@types/node": "^25.2.3",
+    "eslint": "^9.39.2",
+    "tsx": "^4.20.5",
+    "typedoc": "^0.28.17",
+    "typedoc-plugin-extras": "^4.0.1",
+    "typedoc-plugin-llms-txt": "^0.1.2",
+    "typedoc-plugin-markdown": "^4.10.0",
+    "typedoc-plugin-zod": "^1.4.3",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.43.0",
+    "vitest": "^4.0.18"
+  },
+  "engines": {
+    "node": ">= 24"
+  }
+}

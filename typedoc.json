@@ -1,0 +1,25 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "entryPoints": [
+        "packages/core/src/index.ts",
+        "packages/cli/src/index.ts"
+    ],
+    "out": "docs",
+    "exclude": [
+        "**/node_modules/**",
+        "**/*.test.ts",
+        "packages/confluence-client/**"
+    ],
+    "tsconfig": "./tsconfig.doc.json",
+    "plugin": [
+        "typedoc-plugin-markdown",
+        "typedoc-plugin-llms-txt",
+        "typedoc-plugin-zod",
+        "@boneskull/typedoc-plugin-mermaid",
+        "typedoc-plugin-extras"
+    ],
+    "ignoredHighlightLanguages": [
+        "mermaid"
+    ],
+    "name": "md-flux-monorepo"
+}

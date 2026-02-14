@@ -1,0 +1,10 @@
+{
+  "generatorName": "typescript-fetch",
+  "inputSpec": "https://dac-static.atlassian.com/cloud/confluence/openapi-v2.v3.json?_v=1.8357.0",
+  "outputDir": "src/clients/confluence",
+  "additionalProperties": {
+    "supportsES6": true,
+    "typescriptThreePlus": true,
+    "useSingleRequestParameter": true
+  }
+}

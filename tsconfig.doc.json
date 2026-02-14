@@ -1,0 +1,21 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "noEmit": true,
+        "rootDir": ".",
+        "paths": {
+            "@voidrot/md-flux-core": [
+                "./packages/core/src/index.ts"
+            ]
+        }
+    },
+    "include": [
+        "packages/core/src/**/*.ts",
+        "packages/cli/src/**/*.ts"
+    ],
+    "exclude": [
+        "**/*.test.ts",
+        "**/node_modules",
+        "packages/confluence-client"
+    ]
+}
