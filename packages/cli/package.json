@@ -16,7 +16,7 @@
     },
     "dependencies": {
         "@voidrot/md-flux-core": "workspace:*",
-        "commander": "^11.1.0",
+        "commander": "^14.0.3",
         "fast-glob": "^3.3.3",
         "js-yaml": "^4.1.1",
         "zod": "^3.25.76"
