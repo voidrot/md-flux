@@ -4,4 +4,6 @@
 
 ## API
 - [cli/src](cli/src/README.md): cli/src module
+- [cli/src/cli](cli/src/cli/README.md): cli/src/cli module
+- [cli/src/config](cli/src/config/README.md): cli/src/config module
 - [core/src](core/src/README.md): core/src module

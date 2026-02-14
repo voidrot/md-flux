@@ -6,7 +6,7 @@
 
 # Interface: ParsedMarkdown
 
-Defined in: core/src/markdown.ts:4
+Defined in: [core/src/markdown.ts:4](https://github.com/voidrot/md-flux/blob/97621ad43253456faddad2f1f212969eb07c362f/packages/core/src/markdown.ts#L4)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: core/src/markdown.ts:4
 
 > **content**: `string`
 
-Defined in: core/src/markdown.ts:6
+Defined in: [core/src/markdown.ts:6](https://github.com/voidrot/md-flux/blob/97621ad43253456faddad2f1f212969eb07c362f/packages/core/src/markdown.ts#L6)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: core/src/markdown.ts:6
 
 > **frontmatter**: `Record`\<`string`, `unknown`\>
 
-Defined in: core/src/markdown.ts:5
+Defined in: [core/src/markdown.ts:5](https://github.com/voidrot/md-flux/blob/97621ad43253456faddad2f1f212969eb07c362f/packages/core/src/markdown.ts#L5)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: core/src/markdown.ts:5
 
 > **html**: `string`
 
-Defined in: core/src/markdown.ts:7
+Defined in: [core/src/markdown.ts:7](https://github.com/voidrot/md-flux/blob/97621ad43253456faddad2f1f212969eb07c362f/packages/core/src/markdown.ts#L7)

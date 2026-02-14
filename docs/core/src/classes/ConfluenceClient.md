@@ -6,7 +6,7 @@
 
 # Class: ConfluenceClient
 
-Defined in: core/src/confluence.ts:31
+Defined in: [core/src/confluence.ts:31](https://github.com/voidrot/md-flux/blob/97621ad43253456faddad2f1f212969eb07c362f/packages/core/src/confluence.ts#L31)
 
 A client for interacting with the Confluence API.
 Handles space resolution, page searching, creation, and updates.
@@ -17,7 +17,7 @@ Handles space resolution, page searching, creation, and updates.
 
 > **new ConfluenceClient**(`config`): `ConfluenceClient`
 
-Defined in: core/src/confluence.ts:40
+Defined in: [core/src/confluence.ts:40](https://github.com/voidrot/md-flux/blob/97621ad43253456faddad2f1f212969eb07c362f/packages/core/src/confluence.ts#L40)
 
 Creates an instance of ConfluenceClient.
 
@@ -39,7 +39,7 @@ Configuration object containing URL and credentials.
 
 > **publishPage**(`page`, `spaceKey`, `parentId?`): `Promise`\<`void`\>
 
-Defined in: core/src/confluence.ts:86
+Defined in: [core/src/confluence.ts:86](https://github.com/voidrot/md-flux/blob/97621ad43253456faddad2f1f212969eb07c362f/packages/core/src/confluence.ts#L86)
 
 Publishes a Markdown page to Confluence.
 Checks if the page exists:
@@ -80,7 +80,7 @@ If the page title is missing in frontmatter.
 
 > **resolveSpaceId**(`spaceKey`): `Promise`\<`string`\>
 
-Defined in: core/src/confluence.ts:58
+Defined in: [core/src/confluence.ts:58](https://github.com/voidrot/md-flux/blob/97621ad43253456faddad2f1f212969eb07c362f/packages/core/src/confluence.ts#L58)
 
 Resolves a space Key to its internal Confluence numeric ID.
 

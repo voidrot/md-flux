@@ -6,7 +6,7 @@
 
 # Interface: ConfluenceConfig
 
-Defined in: core/src/confluence.ts:15
+Defined in: [core/src/confluence.ts:15](https://github.com/voidrot/md-flux/blob/97621ad43253456faddad2f1f212969eb07c362f/packages/core/src/confluence.ts#L15)
 
 Configuration options for the ConfluenceClient.
 
@@ -16,7 +16,7 @@ Configuration options for the ConfluenceClient.
 
 > **auth**: `object`
 
-Defined in: core/src/confluence.ts:19
+Defined in: [core/src/confluence.ts:19](https://github.com/voidrot/md-flux/blob/97621ad43253456faddad2f1f212969eb07c362f/packages/core/src/confluence.ts#L19)
 
 Authentication credentials.
 
@@ -38,6 +38,6 @@ The email address associated with the Confluence account.
 
 > **baseUrl**: `string`
 
-Defined in: core/src/confluence.ts:17
+Defined in: [core/src/confluence.ts:17](https://github.com/voidrot/md-flux/blob/97621ad43253456faddad2f1f212969eb07c362f/packages/core/src/confluence.ts#L17)
 
 The base URL of the Confluence instance.

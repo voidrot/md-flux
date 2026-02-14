@@ -6,7 +6,7 @@
 
 # Class: MarkdownParser
 
-Defined in: core/src/markdown.ts:10
+Defined in: [core/src/markdown.ts:10](https://github.com/voidrot/md-flux/blob/97621ad43253456faddad2f1f212969eb07c362f/packages/core/src/markdown.ts#L10)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: core/src/markdown.ts:10
 
 > **new MarkdownParser**(): `MarkdownParser`
 
-Defined in: core/src/markdown.ts:13
+Defined in: [core/src/markdown.ts:13](https://github.com/voidrot/md-flux/blob/97621ad43253456faddad2f1f212969eb07c362f/packages/core/src/markdown.ts#L13)
 
 #### Returns
 
@@ -26,7 +26,7 @@ Defined in: core/src/markdown.ts:13
 
 > **parse**(`rawContent`): [`ParsedMarkdown`](../interfaces/ParsedMarkdown.md)
 
-Defined in: core/src/markdown.ts:17
+Defined in: [core/src/markdown.ts:17](https://github.com/voidrot/md-flux/blob/97621ad43253456faddad2f1f212969eb07c362f/packages/core/src/markdown.ts#L17)
 
 #### Parameters
 
