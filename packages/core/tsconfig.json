@@ -3,7 +3,12 @@
     "compilerOptions": {
         "outDir": "dist",
         "rootDir": "src",
-        "composite": true
+        "composite": true,
+        "paths": {
+            "@voidrot/confluence-client": [
+                "../confluence-client/src/index.ts"
+            ]
+        }
     },
     "include": [
         "src/**/*"
