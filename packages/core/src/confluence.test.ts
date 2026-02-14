@@ -31,8 +31,12 @@ describe('ConfluenceClient', () => {
 
   beforeEach(() => {
     vi.clearAllMocks()
-    vi.mocked(PageApi).mockImplementation(() => mockPageApi as unknown as PageApi)
-    vi.mocked(SpaceApi).mockImplementation(() => mockSpaceApi as unknown as SpaceApi)
+    vi.mocked(PageApi).mockImplementation(function () {
+      return mockPageApi as unknown as PageApi
+    })
+    vi.mocked(SpaceApi).mockImplementation(function () {
+      return mockSpaceApi as unknown as SpaceApi
+    })
 
     client = new ConfluenceClient(config)
   })

@@ -10,13 +10,17 @@ vi.mock('./config.js')
 vi.mock('@voidrot/md-flux-core', () => {
   const publishPageMock = vi.fn().mockResolvedValue(undefined)
   return {
-    MarkdownParser: vi.fn().mockImplementation(() => ({
-      parse: vi.fn().mockReturnValue({ frontmatter: {}, html: 'html', content: 'content' })
-    })),
-    ConfluenceClient: vi.fn().mockImplementation(() => ({
-      publishPage: publishPageMock,
-      resolveSpaceId: vi.fn()
-    }))
+    MarkdownParser: vi.fn().mockImplementation(function () {
+      return {
+        parse: vi.fn().mockReturnValue({ frontmatter: {}, html: 'html', content: 'content' })
+      }
+    }),
+    ConfluenceClient: vi.fn().mockImplementation(function () {
+      return {
+        publishPage: publishPageMock,
+        resolveSpaceId: vi.fn()
+      }
+    })
   }
 })
 

@@ -1,32 +1,32 @@
 {
-    "name": "@voidrot/md-flux",
-    "version": "0.1.0",
-    "type": "module",
-    "bin": {
-        "md-flux": "./bin/run.js"
-    },
-    "scripts": {
-        "build": "tsc -b",
-        "typecheck": "tsc --noEmit",
-        "test": "vitest",
-        "test:run": "vitest run",
-        "lint": "eslint .",
-        "lint:fix": "eslint . --fix",
-        "dev": "tsx src/index.ts",
-        "start": "node bin/run.js"
-    },
-    "dependencies": {
-        "@voidrot/md-flux-core": "workspace:*",
-        "commander": "^14.0.3",
-        "fast-glob": "^3.3.3",
-        "js-yaml": "^4.1.1",
-        "zod": "^3.25.76"
-    },
-    "devDependencies": {
-        "@types/js-yaml": "^4.0.9",
-        "@types/node": "^25.2.3",
-        "tsx": "^4.21.0",
-        "typescript": "^5.3.3",
-        "vitest": "^1.0.0"
-    }
+  "name": "@voidrot/md-flux",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "md-flux": "./bin/run.js"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "dev": "tsx src/index.ts",
+    "start": "node bin/run.js"
+  },
+  "dependencies": {
+    "@voidrot/md-flux-core": "workspace:*",
+    "commander": "^11.1.0",
+    "fast-glob": "^3.3.3",
+    "js-yaml": "^4.1.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.10.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.3.3",
+    "vitest": "^4.0.18"
+  }
 }
