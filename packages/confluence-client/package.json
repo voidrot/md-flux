@@ -1,10 +1,11 @@
 {
     "name": "@voidrot/confluence-client",
     "version": "0.1.0",
-    "version": "0.1.0",
     "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsc -b",
+        "typecheck": "tsc --noEmit",
         "api:clean": "rm -rf src/confluence",
         "api:generate": "openapi-generator-cli generate -c openapi-generator.confluence.json -o src/confluence && node scripts/fix-api-exports.js"
     },
