@@ -24,7 +24,7 @@
   "devDependencies": {
     "@boneskull/typedoc-plugin-mermaid": "^0.2.1",
     "@eslint/js": "^9.39.3",
-    "@stylistic/eslint-plugin": "^5.9.0",
+    "@stylistic/eslint-plugin": "^5.10.0",
     "@types/node": "^25.3.2",
     "eslint": "^10.0.3",
     "tsx": "^4.20.5",
