@@ -107,8 +107,8 @@ importers:
         specifier: ^14.1.1
         version: 14.1.1
       marked:
-        specifier: ^17.0.4
-        version: 17.0.4
+        specifier: ^18.0.0
+        version: 18.0.0
       zod:
         specifier: ^3.22.0
         version: 3.25.76
@@ -1449,8 +1449,8 @@ packages:
     resolution: {integrity: sha512-BuU2qnTti9YKgK5N+IeMubp14ZUKUUw7yeJbkjtosvHiP0AZ5c8IAgEMk79D0eC8F23r4Ac/q8cAIFdm2FtyoA==}
     hasBin: true
 
-  marked@17.0.4:
-    resolution: {integrity: sha512-NOmVMM+KAokHMvjWmC5N/ZOvgmSWuqJB8FoYI019j4ogb/PeRMKoKIjReZ2w3376kkA8dSJIP8uD993Kxc0iRQ==}
+  marked@18.0.0:
+    resolution: {integrity: sha512-2e7Qiv/HJSXj8rDEpgTvGKsP8yYtI9xXHKDnrftrmnrJPaFNM7VRb2YCzWaX4BP1iCJ/XPduzDJZMFoqTCcIMA==}
     engines: {node: '>= 20'}
     hasBin: true
 
@@ -3185,7 +3185,7 @@ snapshots:
       punycode.js: 2.3.1
       uc.micro: 2.1.0
 
-  marked@17.0.4: {}
+  marked@18.0.0: {}
 
   math-intrinsics@1.1.0: {}
 
