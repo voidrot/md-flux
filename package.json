@@ -31,7 +31,7 @@
     "typedoc": "^0.28.17",
     "typedoc-plugin-extras": "^4.0.1",
     "typedoc-plugin-llms-txt": "^0.1.2",
-    "typedoc-plugin-markdown": "^4.10.0",
+    "typedoc-plugin-markdown": "^4.11.0",
     "typedoc-plugin-zod": "^1.4.3",
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.57.0",
