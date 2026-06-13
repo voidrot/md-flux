@@ -14,7 +14,7 @@
   "dependencies": {
     "@voidrot/confluence-client": "workspace:*",
     "markdown-it": "^14.2.0",
-    "marked": "^18.0.4",
+    "marked": "^18.0.5",
     "zod": "^4.4.3"
   },
   "devDependencies": {
