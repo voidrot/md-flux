@@ -27,7 +27,7 @@
     "@stylistic/eslint-plugin": "^5.10.0",
     "@types/node": "^26.1.0",
     "eslint": "^10.6.0",
-    "tsx": "^4.22.4",
+    "tsx": "^4.23.0",
     "typedoc": "^0.28.19",
     "typedoc-plugin-extras": "^4.0.1",
     "typedoc-plugin-llms-txt": "^0.1.2",
